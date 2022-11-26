@@ -1,0 +1,65 @@
+.header1 {
+    display: flex;
+}
+
+.header1-left {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 1rem;
+    font-size: 14.2px;
+    font-family: 'Lora', serif;
+}
+
+.header1-left div {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0 0.3rem;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.icon{
+    font-size: 30px;
+    color: #C69749;
+    transition: width 2s;
+}
+.icon:hover{
+    font-size: 35px;
+}
+.header1-middle {
+    flex: 1;
+}
+
+.header1-middle img {
+    height: 9rem;
+    margin-left: 7.5rem;
+}
+
+.header1-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header1-right>div:nth-of-type(1) {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #C69749;
+}
+
+.btn {
+    background-color: #C69749;
+    color: white;
+    font-size: 12px;
+    width: 9rem;
+    height: 2.4rem;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn:hover {
+    background-color: #97702f;
+    color: white;
+    cursor: pointer;
+}

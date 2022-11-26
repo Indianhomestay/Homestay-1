@@ -1,0 +1,59 @@
+.about{
+    display: flex;
+    margin: 2.1rem 3.6rem;
+    animation-name: anima;
+    animation-duration: 3s;
+}
+.about-left{
+    flex: 1;
+}
+.about-left img:nth-of-type(1){
+    position: relative;
+    width: 38.5vw;
+    transform: scaleY(1.3);
+}
+.about-left img:nth-of-type(2){
+    position: absolute;
+    right: 33.7rem;
+    top: 73.7rem;
+    width: 26.4vw;
+    height: 53.4vh;
+}
+.about-right{
+    flex: 1;
+    margin-left: 4rem;
+}
+.about-right p:nth-of-type(1){
+    font-size: 3.5rem;
+    font-family: 'EB Garamond', serif;
+}
+.about-right p:nth-of-type(2){
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    color: #C69749;
+}
+.about-right div:nth-of-type(1) div:nth-of-type(1){
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.about-right div:nth-of-type(1) div:nth-of-type(2){
+    font-size: 15px;
+    margin-bottom: 2.5rem;
+    font-weight: lighter;
+}
+.rank{
+    width: 18rem;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 3.2rem;
+}
+.rank div{
+    display: flex;
+    gap: 2rem;
+}
+@keyframes anima{
+    from{transform: translateY(100vh);}
+    to{transform: translateY(0vh);}
+}
